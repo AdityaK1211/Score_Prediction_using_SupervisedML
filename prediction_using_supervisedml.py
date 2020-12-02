@@ -8,7 +8,6 @@ Original file is located at
 ## (Level - Beginner)
 
 Author : Aditya K. Kataria
-Email : adityakataria36@gmail.com
 Data Science & Business Analytics Internship
 GRIP December2020
 
