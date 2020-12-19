@@ -89,11 +89,11 @@ y = df.iloc[:, 1].values
 ## Splitting Datset
 The split of data into the training and test sets is very important. We use Scikit Learn's built-in method of train_test_split() from model_selection.
 
-The test size is kept 0.2 which indicates that 80% of data is used for training and remaining 20% of data is used for testing purpose.
+The test size is kept 0.3 which indicates that 70% of data is used for training and remaining 30% of data is used for testing purpose.
 
 ```
 # Split Data into training and testing
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=0)
 ```
 
 ## Linear Regression Model
@@ -207,8 +207,8 @@ print("Predicted Score = {:.4}".format(pred_score[0]))
 
 ### Output
 Enter number of hours for predicting the score: 9.25 <br>
-Number of Hours =  9.25 hours/day <br>
-Predicted Score = 93.69 <br>
+Number of Hours = 9.25 hours/day<br>
+Predicted Score = 92.92<br>
 
 ## Comaprison of various test sizes
 <table>
